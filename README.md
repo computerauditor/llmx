@@ -10,6 +10,9 @@ This Python script allows you to interact with a Language Model (LLM) through th
 - Formatted and wrapped text output for improved readability
 - Error handling for robustness
 
+![Screenshot from 2024-10-16 22-07-55](https://github.com/user-attachments/assets/6316a54a-eeb6-4a11-a228-4c1b773ff972)
+[Terminal Output]
+
 ## Installation
 
 1. Clone this repository:
