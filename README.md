@@ -1,6 +1,7 @@
 # LLMX Query Script
 
 This Python script allows you to interact with a Language Model (LLM) through the command line. It supports providing context through files or piped input, making it versatile for various use cases.
+![Screenshot from 2024-10-16 22-07-55](https://github.com/user-attachments/assets/6316a54a-eeb6-4a11-a228-4c1b773ff972)
 
 ## Features
 
@@ -9,9 +10,6 @@ This Python script allows you to interact with a Language Model (LLM) through th
 - Loading indicator for better user experience
 - Formatted and wrapped text output for improved readability
 - Error handling for robustness
-
-![Screenshot from 2024-10-16 22-07-55](https://github.com/user-attachments/assets/6316a54a-eeb6-4a11-a228-4c1b773ff972)
-[Terminal Output]
 
 ## Installation
 
@@ -80,8 +78,5 @@ Enter your prompt: What is the meaning of life?
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+- A big thanks to g4f team for providing the LLM clients!!!
+- Contributions are welcome! Please feel free to submit a Pull Request.
