@@ -1,4 +1,4 @@
-# LLM Query Script
+# LLMX Query Script
 
 This Python script allows you to interact with a Language Model (LLM) through the command line. It supports providing context through files or piped input, making it versatile for various use cases.
 
@@ -14,8 +14,8 @@ This Python script allows you to interact with a Language Model (LLM) through th
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/llm-query-script.git
-   cd llm-query-script
+   git clone https://github.com/computerauditor/llmx
+   cd llmx
    ```
 
 2. Install the required dependencies:
@@ -25,7 +25,7 @@ This Python script allows you to interact with a Language Model (LLM) through th
 
 3. Make the script executable:
    ```
-   chmod +x llm_query.py
+   chmod +x llmx.py
    ```
 
 ## Usage
@@ -35,25 +35,25 @@ The script can be used in several ways:
 ### 1. Basic prompt
 
 ```
-python llm_query.py "What is the capital of France?"
+python llmx.py "What is the capital of France?"
 ```
 
 ### 2. Prompt with file context
 
 ```
-python llm_query.py -f code.txt "Please explain the function on line 33."
+python llmx.py -f code.txt "Please explain the function on line 33."
 ```
 
 ### 3. Prompt with piped input as context
 
 ```
-cat code.txt | python llm_query.py "Please see at line 33 where it says exec.func[1], what's the error?"
+cat code.txt | python llmx.py "Please see at line 33 where it says exec.func[1], what's the error?"
 ```
 
 ### 4. Prompt with both file and piped input (file takes precedence)
 
 ```
-cat additional_info.txt | python llm_query.py -f code.txt "Explain the code considering the additional information."
+cat additional_info.txt | python llmx.py -f code.txt "Explain the code considering the additional information."
 ```
 
 ### 5. Interactive mode
@@ -61,7 +61,7 @@ cat additional_info.txt | python llm_query.py -f code.txt "Explain the code cons
 If you run the script without a prompt, it will ask you to enter one:
 
 ```
-python llm_query.py
+python llmx.py
 Enter your prompt: What is the meaning of life?
 ```
 
