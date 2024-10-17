@@ -1,4 +1,4 @@
-![ss1](https://github.com/user-attachments/assets/236453c5-343e-4f80-a75c-2713e7f83493)![ss1](https://github.com/user-attachments/assets/2ff14eee-3fd4-4edd-9f8e-a33f528b819d)# LLMX
+# LLMX
 
 This Python script allows you to interact with a Language Model (LLM) through the command line. It supports providing context through files or piped input, making it versatile for various use cases.
 
